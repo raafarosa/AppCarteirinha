@@ -1,6 +1,6 @@
 {
   "name": "Estacio",
-  "short_name": "Meu Print",
+  "short_name": "Estacio",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f2f2f2",
