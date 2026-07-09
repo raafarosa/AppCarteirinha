@@ -6,11 +6,14 @@
     -webkit-tap-highlight-color: transparent;
 }
 
-body, html {
+body,
+html {
     width: 100%;
     height: 100%;
-    overflow: hidden; /* Bloqueia qualquer rolagem */
-    background-color: #f2f2f2; /* Fundo branco total */
+    overflow: hidden;
+    /* Bloqueia qualquer rolagem */
+    background-color: #f2f2f2;
+    /* Fundo branco total */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -18,12 +21,14 @@ body, html {
 .app-container {
     width: 100vw;
     height: 100vh;
-    height: 100dvh; /* Altura dinâmica que empurra abaixo das barras do mobile */
+    height: 100dvh;
+    /* Altura dinâmica que empurra abaixo das barras do mobile */
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: #f2f2f2; /* Garante branco absoluto atrás do print */
+    background-color: #f2f2f2;
+    /* Garante branco absoluto atrás do print */
 }
 
 /* Estilização da Imagem */
@@ -32,14 +37,15 @@ body, html {
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain; /* Encaixa o print inteiro na tela mantendo a proporção */
-    
+    object-fit: contain;
+    /* Encaixa o print inteiro na tela mantendo a proporção */
+
     /* Animação de entrada */
     opacity: 0;
     transition: opacity 0.6s ease-in-out;
-    
+
     /* Proteções contra toque */
-    pointer-events: none; 
+    pointer-events: none;
     user-select: none;
     -webkit-user-drag: none;
 }
@@ -58,7 +64,8 @@ body, html {
     width: 100vw;
     height: 100vh;
     height: 100dvh;
-    background-color: #f2f2f2; /* Splash também inicia em branco se preferir */
+    background-color: #f2f2f2;
+    /* Splash também inicia em branco se preferir */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,15 +74,26 @@ body, html {
 }
 
 .splash-logo {
-    width: 150px; 
+    width: 150px;
     height: auto;
     animation: pulse 1.8s infinite ease-in-out;
 }
 
 @keyframes pulse {
-    0% { transform: scale(0.95); opacity: 0.8; }
-    50% { transform: scale(1); opacity: 1; }
-    100% { transform: scale(0.95); opacity: 0.8; }
+    0% {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.95);
+        opacity: 0.8;
+    }
 }
 
 .splash-container.hidden {
