@@ -10,7 +10,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden; /* Bloqueia qualquer rolagem */
-    background-color: #FFFFFF; /* Fundo branco total */
+    background-color: #f2f2f2; /* Fundo branco total */
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body, html {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: #FFFFFF; /* Garante branco absoluto atrás do print */
+    background-color: #f2f2f2; /* Garante branco absoluto atrás do print */
 }
 
 /* Estilização da Imagem */
@@ -58,7 +58,7 @@ body, html {
     width: 100vw;
     height: 100vh;
     height: 100dvh;
-    background-color: #FFFFFF; /* Splash também inicia em branco se preferir */
+    background-color: #f2f2f2; /* Splash também inicia em branco se preferir */
     display: flex;
     justify-content: center;
     align-items: center;

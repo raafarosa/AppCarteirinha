@@ -3,8 +3,8 @@
   "short_name": "Meu Print",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "background_color": "#f2f2f2",
+  "theme_color": "#f2f2f2",
   "orientation": "portrait",
   "icons": [
     {
