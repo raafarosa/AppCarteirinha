@@ -1,5 +1,5 @@
 {
-  "name": "Visualizador de Printscreen",
+  "name": "Estacio",
   "short_name": "Meu Print",
   "start_url": "./index.html",
   "display": "standalone",
